@@ -10,9 +10,9 @@ function getElementWidth(content, padding, border) {
     padding = Number.parseFloat(padding);
     border = Number.parseFloat(border);
     
-    let totalContent = content + padding * 2 + border *2;
+    return content + padding * 2 + border * 2;
     
-    return totalContent = `${totalContent}`;  
+     
 }
 
 
