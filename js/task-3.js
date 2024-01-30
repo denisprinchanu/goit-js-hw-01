@@ -14,9 +14,9 @@ function getElementWidth(content, padding, border) {
 }
 
 
-let orderOne = getElementWidth (50, 8, 4);
-let  orderTwo = getElementWidth (60, 12, 8.5);
-let  orderThree = getElementWidth (200, 0, 0);
+// let orderOne = getElementWidth (50, 8, 4);
+// let  orderTwo = getElementWidth (60, 12, 8.5);
+// let  orderThree = getElementWidth (200, 0, 0);
 
 
 console.log(getElementWidth(50, 8, 4)); // 74
@@ -26,4 +26,4 @@ console.log(getElementWidth(200, 0, 0)); // 200
 
 
 // let content = "50px";
-// let numerical = Number.parseFloat(value);
+// let numerical = Number.parseFloat(content);

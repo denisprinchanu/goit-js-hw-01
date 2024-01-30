@@ -8,9 +8,9 @@ function makeTransaction(quantity, pricePerDroid) {
     return totalPrice = `You ordered ${quantity} droids worth ${totalPrice} credits!`;  
 }
 
-const orderOne = makeTransaction(5, 3000);
-const  orderTwo = makeTransaction(3, 1000);
-const  orderThree = makeTransaction(10, 500);
+// const orderOne = makeTransaction(5, 3000);
+// const  orderTwo = makeTransaction(3, 1000);
+// const  orderThree = makeTransaction(10, 500);
 
 
 
